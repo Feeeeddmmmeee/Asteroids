@@ -4,7 +4,7 @@ Asteroids is a space-themed arcade shooter game originally created by Atari, Inc
 
 ## Screenshots
 
-https://user-images.githubusercontent.com/69256898/161620172-5456e9ab-e560-46f1-ac03-ae1933262d15.mp4
+![Asteroids-2022-04-04-21-37-10_final](https://user-images.githubusercontent.com/69256898/161620301-94f0dff8-c629-4a49-9ea4-264eb1b3f89e.gif)
 
 ## Compiling
 To compile and run the game on Windows you'll need to first install [SDL2](https://www.libsdl.org/download-2.0.php), [SDL_Image](https://www.libsdl.org/projects/SDL_image/) and proper C++ support.
