@@ -95,6 +95,7 @@ void Game::update()
 			if (bullet->getPosition().x < asteroid->getPosition().x + asteroid->getSize() && bullet->getPosition().x + 4 > asteroid->getPosition().x && bullet->getPosition().y < asteroid->getPosition().y + asteroid->getSize() && bullet->getPosition().y + 4> asteroid->getPosition().y)
 			{
 				asteroid->onHit(this->asteroids, renderer);
+				bullets.erase(std::remove(bullets.begin(), bullets.end(), bullet), bullets.end());
 				break;
 			}
 		}

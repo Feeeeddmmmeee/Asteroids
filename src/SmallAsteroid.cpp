@@ -5,7 +5,7 @@ SmallAsteroid::SmallAsteroid(Vector position, Vector velocity, SDL_Renderer* ren
 	this->position = position;
 	this->velocity = velocity;
 
-	SDL_Surface* tempSurface = IMG_Load("res/gfx/asteroid0.png");
+	SDL_Surface* tempSurface = IMG_Load("res/gfx/asteroid1.png");
 	this->texture = SDL_CreateTextureFromSurface(renderer, tempSurface);
 	SDL_FreeSurface(tempSurface);
 }
