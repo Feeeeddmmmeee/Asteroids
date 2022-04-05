@@ -44,7 +44,7 @@ void Game::update()
 {
 	std::random_device r;
 	std::default_random_engine el(r());
-	std::uniform_int_distribution<int> uniform_dist(0, 60 * 3);
+	std::uniform_int_distribution<int> uniform_dist(0, 60 * 5);
 	int num = uniform_dist(el);
 
 	if (!num)
