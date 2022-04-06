@@ -11,4 +11,7 @@ public:
 	virtual Vector getPosition() = 0;
 	virtual void setX(float x) = 0;
 	virtual void setY(float y) = 0;
+
+protected:
+	float angle;
 };
