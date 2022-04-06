@@ -2,8 +2,6 @@
 #include "SmallAsteroid.h"
 
 #include <random>
-#include <string>
-#include <iostream>
 
 BigAsteroid::BigAsteroid(Vector position, Vector velocity, SDL_Renderer* renderer)
 {
